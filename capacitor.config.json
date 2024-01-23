@@ -1,0 +1,6 @@
+{
+  "appId": "com.michelangelo.app",
+  "appName": "NAME",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
