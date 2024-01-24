@@ -4,5 +4,7 @@ cd "$(dirname "$0")"
 cd ..
 
 . n_env/bin/activate
-npm run dev
+npm run build
+npx cap sync
+npx cap run android
 deactivate
