@@ -7,7 +7,7 @@ cd ..
 
 cd src
 
-npx onchange "**/*" -- npx prettier --write --ignore-unknown {{changed}}
+npx onchange "**/*" -- npx prettier --write -u --no-error-on-unmatched-pattern --require-pragma {{changed}}
 
 
 deactivate

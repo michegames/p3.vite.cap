@@ -1,3 +1,7 @@
+/**
+ * @format
+ */
+
 import "phaser";
 import MainScene from "./scenes/main";
 
